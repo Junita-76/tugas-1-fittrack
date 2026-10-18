@@ -6,4 +6,17 @@ public class Member{
   private String noTelepon;
   private String tanggalDaftar;
   private String jenisPaket;
+
+public String getNama(){
+  return nama;
+  }
+public String getNoTelepon(){
+  return noTelepon;
+  }
+public String getTanggalDaftar(){
+  return tanggalDaftar;
+  }
+public String getJenisPaket(){
+  return jenisPaket;
+  }
 }
