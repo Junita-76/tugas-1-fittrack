@@ -19,4 +19,12 @@ public String getTanggalDaftar(){
 public String getJenisPaket(){
   return jenisPaket;
   }
+
+  public void setNama(String nama){
+    if(nama != null && !nama.trim().is Empty()){
+      this.nama = nama;
+    }
+    else{
+      System.out.println("Nama tidak boleh kosong");
+    }
 }
