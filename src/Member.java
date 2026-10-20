@@ -27,4 +27,11 @@ public String getJenisPaket(){
     else{
       System.out.println("Nama tidak boleh kosong");
     }
+
+  public void setNoTelepon(String noTelepon){
+    if(noTelepon != null && noTelepon.matches("0[0-9]{9,}")){
+  }
+    else{
+      System.out.println("Nomor telepon harus diawali 0 dan minimal 10 digit!);
+    )
 }
