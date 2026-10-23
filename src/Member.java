@@ -37,4 +37,20 @@ public String getJenisPaket(){
       System.out.println("Nomor telepon harus diawali 0 dan minimal 10 digit!");
     }
   }
+
+  public void setTanggalDaftar(String tanggalDaftar){
+    if(tanggalDaftar != null && !tanggalDaftar.trim().isEmpty()){
+      this.tanggalDaftar = tanggalDaftar;
+    }
+    else{
+      System.out.println("Tanggal pendaftaran tidak boleh kosong!");
+    }
+
+    public void setJenisPaket(String jenisPaket){
+      if(jenisPaket != null && (jenisPaket.equals("Basic") || jenisPaket.equals("Premium") || jenisPaket.equals("VIP"))){
+        this.jenisPaket = jenisPaket;
+    }
+    else{
+      System.out.println("Jenis paket harus Basic, Premium, atau VIP");
+    }
 }
