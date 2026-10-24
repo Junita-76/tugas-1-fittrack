@@ -50,7 +50,17 @@ public String getJenisPaket(){
       if(jenisPaket != null && (jenisPaket.equals("Basic") || jenisPaket.equals("Premium") || jenisPaket.equals("VIP"))){
         this.jenisPaket = jenisPaket;
     }
-    else{
+      else{
       System.out.println("Jenis paket harus Basic, Premium, atau VIP");
+      }
+    }
+    public Member(String nama, String noTelepon, String tanggalDaftar, String jenisPaket){
+      setNama(nama);
+      setNoTelepon(noTelepon);
+      setTanggalDaftar(tanggalDaftar);
+      setJenisPaket(jenisPaket);
+    }
+    public Member(String nama, String noTelepon, String tanggalDaftar){
+      this(nama, noTelepon, tanggalDaftar, "Basic");
     }
 }
