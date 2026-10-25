@@ -20,7 +20,7 @@ public String getJenisPaket(){
   return jenisPaket;
   }
 
-  public void setNama(String nama){
+public void setNama(String nama){
     if(nama != null && !nama.trim().isEmpty()){
       this.nama = nama;
     }
@@ -29,7 +29,7 @@ public String getJenisPaket(){
     }
   }
 
-  public void setNoTelepon(String noTelepon){
+public void setNoTelepon(String noTelepon){
     if(noTelepon != null && noTelepon.matches("0[0-9]{9,}")){
       this.noTelepon = noTelepon;
    }
@@ -63,4 +63,9 @@ public String getJenisPaket(){
     public Member(String nama, String noTelepon, String tanggalDaftar){
       this(nama, noTelepon, tanggalDaftar, "Basic");
     }
+
+  @override
+  public String toString(){
+    return "Nama: " + nama + ", No. Telepon: " + noTelepon + ", Tanggal Daftar: " + tanggalDaftar + ", Jenis Paket: " + jenisPaket;
+  }
 }
