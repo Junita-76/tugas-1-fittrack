@@ -45,11 +45,11 @@ public void setNoTelepon(String noTelepon){
     else{
       System.out.println("Tanggal pendaftaran tidak boleh kosong!");
     }
-
+  }
     public void setJenisPaket(String jenisPaket){
       if(jenisPaket != null && (jenisPaket.equals("Basic") || jenisPaket.equals("Premium") || jenisPaket.equals("VIP"))){
         this.jenisPaket = jenisPaket;
-    }
+      }
       else{
       System.out.println("Jenis paket harus Basic, Premium, atau VIP");
       }
@@ -64,7 +64,7 @@ public void setNoTelepon(String noTelepon){
       this(nama, noTelepon, tanggalDaftar, "Basic");
     }
 
-  @override
+  @Override
   public String toString(){
     return "Nama: " + nama + ", No. Telepon: " + noTelepon + ", Tanggal Daftar: " + tanggalDaftar + ", Jenis Paket: " + jenisPaket;
   }
