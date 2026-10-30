@@ -10,5 +10,14 @@ public class TesFitTrack{
 
     anggota1.setNama("");
     System.out.println(anggota1);
+
+    anggota2.setNoTelepon("12345");
+    System.out.println(anggota2);
+
+    anggota3.setJenisPaket("Gold");
+    System.out.println(anggota3);
+
+    anggota4.setTanggalDaftar("");
+    System.out.println(anggota4);
   }
 }
