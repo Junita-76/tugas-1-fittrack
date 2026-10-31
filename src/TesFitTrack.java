@@ -19,5 +19,9 @@ public class TesFitTrack{
 
     anggota4.setTanggalDaftar("");
     System.out.println(anggota4);
+
+    Member[] daftarAnffota = {
+      anggtoa1,inggota2, anggota3, anggota4
+    };
   }
 }
