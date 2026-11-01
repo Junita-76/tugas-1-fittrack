@@ -20,8 +20,14 @@ public class TesFitTrack{
     anggota4.setTanggalDaftar("");
     System.out.println(anggota4);
 
-    Member[] daftarAnffota = {
-      anggtoa1,inggota2, anggota3, anggota4
+    Member[] daftarAnggota = {
+      anggota1,anggota2, anggota3, anggota4
     };
+
+    System.out.println("\n== DAFTAR ANGGOTA FITTRACK ==");
+
+    for(int i = 0; i < daftarAnggota.length; i++){
+      System.out.println(daftarAnggota[i]);
+    }
   }
 }
