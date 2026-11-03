@@ -27,7 +27,9 @@ public class TesFitTrack{
     System.out.println("\n== DAFTAR ANGGOTA FITTRACK ==");
 
     for(int i = 0; i < daftarAnggota.length; i++){
+      System.out.println("Anggota ke-" + (i + 1));
       System.out.println(daftarAnggota[i]);
+      System.out.println("-------------------------------");
     }
   }
 }
