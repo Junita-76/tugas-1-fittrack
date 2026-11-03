@@ -66,6 +66,6 @@ public void setNoTelepon(String noTelepon){
 
   @Override
   public String toString(){
-    return "Nama: " + nama + ", No. Telepon: " + noTelepon + ", Tanggal Daftar: " + tanggalDaftar + ", Jenis Paket: " + jenisPaket;
+    return "Nama: " + nama + "\nNo. Telepon: " + noTelepon + "\nTanggal Daftar: " + tanggalDaftar + "\nJenis Paket: " + jenisPaket;
   }
 }
