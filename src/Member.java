@@ -86,7 +86,7 @@ public void setNoTelepon(String noTelepon){
       this.tanggalDaftar = tanggalDaftar;
     }
 
-    catch (DateTimeParseExeption | NullPointerExeption e){
+    catch (DateTimeParseException | NullPointerException e){
       System.out.println("Tanggal harus menggunakan format dd-MM-yyyy dan tanggal yang valid");
     }
   }
@@ -125,7 +125,6 @@ public void setNoTelepon(String noTelepon){
    * @param noTelepon nomor telepon anggota
    * @param tanggalDaftar tanggal pendaftaran
    */
-  
     public Member(String nama, String noTelepon, String tanggalDaftar){
       this(nama, noTelepon, tanggalDaftar, "Basic");
     }
