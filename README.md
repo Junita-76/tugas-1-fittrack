@@ -1,5 +1,3 @@
-# tugas-1-fittrack
-
 # FitTrack - Sistem Keanggotaan Gym
 
 ## Deskripsi
